@@ -2,6 +2,17 @@
 	"elements": [
 		{
 			"type": "entity",
+			"replace": {
+				"components": {
+
+				},
+				"component_groups": {
+
+				},
+				"events": {
+
+				}
+			},
 			"add": {
 				"components": {
 
