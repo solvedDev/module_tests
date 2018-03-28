@@ -1,3 +1,33 @@
 {
-	"test": 1
+	"elements": [
+		{
+			"type": "entity",
+			"add": {
+				"components": {
+
+				},
+				"component_groups": {
+
+				},
+				"events": {
+
+				}
+			},
+			"remove": {
+				"components": [ ],
+				"component_groups": [ ],
+				"events": [ ]
+			}
+			
+		},
+		{
+			"type": "commands",
+			"commands": [
+				{
+					"command": "/test",
+					"description": "test_description"
+				}
+			]
+		}
+	]
 }
