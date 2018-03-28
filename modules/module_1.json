@@ -2,6 +2,9 @@
 	"elements": [
 		{
 			"type": "entity",
+			"name": "marker",
+			"description": "Mark a location",
+			
 			"replace": {
 				"components": {
 
