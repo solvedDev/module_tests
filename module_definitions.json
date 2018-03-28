@@ -1,0 +1,27 @@
+[
+	{
+		"name": "test_1",
+		"description": "test_description",
+		"path": "https://solveddev.github.io/module_tests/module_1.json"
+	},
+	{
+		"name": "test_2",
+		"description": "test_description",
+		"path": "https://solveddev.github.io/module_tests/module_2.json"
+	},
+	{
+		"name": "test_3",
+		"description": "test_description",
+		"path": "https://solveddev.github.io/module_tests/module_3.json"
+	},
+	{
+		"name": "test_4",
+		"description": "test_description",
+		"path": "https://solveddev.github.io/module_tests/module_4.json"
+	},
+	{
+		"name": "test_5",
+		"description": "test_description",
+		"path": "https://solveddev.github.io/module_tests/module_5.json"
+	}
+]
