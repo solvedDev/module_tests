@@ -7,7 +7,7 @@
 			"replace": {
 				"components": {
 				}
-			}
+			},
 			"add": {
 				"components": {
 					"minecraft:health": {
