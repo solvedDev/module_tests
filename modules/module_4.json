@@ -11,7 +11,11 @@
 							"value": 10,
 							"max": 20
 						}
-					]
+					],
+					"minecraft:movement": {
+						"value": 10,
+						"max": 20
+					}
 				},
 				"component_groups": {
 					"test_group": {
