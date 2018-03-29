@@ -1,3 +1,41 @@
 {
-	"test": 1
+	"elements": [
+		{
+			"type": "entity",
+			"name": "marker",
+			"description": "Mark a location",
+			"replace": {
+				"components": {
+				}
+			}
+			"add": {
+				"components": {
+					"minecraft:health": {
+						"value": 30,
+						"max": 40
+					},
+					"minecraft:health": [
+						{
+							"value": 10,
+							"max": 20
+						}
+					]
+				},
+				"component_groups": {
+					"test_group": {
+						"minecraft:health": {
+							"value": 30,
+							"max": 40
+						}
+					}
+				},
+				"events": {
+					"minecraft:health": {
+						"value": 30,
+						"max": 40
+					}
+				}
+			}
+		}
+	]
 }
