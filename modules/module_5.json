@@ -36,7 +36,7 @@
 		{
 			"type": "entity",
 			"name": "villager",
-			"description": "Traading behavior",
+			"description": "trading behavior",
 			"add": {
 				"components": {
 					"minecraft:health": [
@@ -69,7 +69,7 @@
 		{
 			"type": "entity",
 			"name": "marker",
-			"description": "Mark a location",
+			"description": "mark a location",
 			"add": {
 				"components": {
 					"minecraft:health": [
