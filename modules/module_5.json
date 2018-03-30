@@ -2,6 +2,72 @@
 	"elements": [
 		{
 			"type": "entity",
+			"name": "NPC",
+			"description": "gets trading behavior",
+			"add": {
+				"components": {
+					"minecraft:health": [
+						{
+							"value": 10,
+							"max": 20
+						}
+					],
+					"minecraft:movement": {
+						"value": 10,
+						"max": 20
+					}
+				},
+				"component_groups": {
+					"test_group": {
+						"minecraft:health": {
+							"value": 30,
+							"max": 40
+						}
+					}
+				},
+				"events": {
+					"minecraft:health": {
+						"value": 30,
+						"max": 40
+					}
+				}
+			}
+		},
+		{
+			"type": "entity",
+			"name": "villager",
+			"description": "Traading behavior",
+			"add": {
+				"components": {
+					"minecraft:health": [
+						{
+							"value": 10,
+							"max": 20
+						}
+					],
+					"minecraft:movement": {
+						"value": 10,
+						"max": 20
+					}
+				},
+				"component_groups": {
+					"test_group": {
+						"minecraft:health": {
+							"value": 30,
+							"max": 40
+						}
+					}
+				},
+				"events": {
+					"minecraft:health": {
+						"value": 30,
+						"max": 40
+					}
+				}
+			}
+		},
+		{
+			"type": "entity",
 			"name": "marker",
 			"description": "Mark a location",
 			"add": {
