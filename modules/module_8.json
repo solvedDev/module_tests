@@ -1,0 +1,76 @@
+{
+	"elements": [
+		{
+			"type": "entity",
+			"name": "Health1",
+			"description": "Set health to 1"
+			"add": {
+				"components": { 
+					"minecraft:health": {
+						"value": 1,
+						"max": 1
+					}
+				}
+			}
+		},
+		{
+			"type": "entity",
+			"name": "blank",
+			"description": "Remove all components, events and component groups."
+			"replace": {
+				"component_groups": { },
+				"components": { },
+				"events": { }
+			}
+		},
+		{
+			"type": "entity",
+			"name": "StopIt!",
+			"description": "Remove all components, events and component groups."
+			"add": {
+				"component_groups": {
+					"module:stop": {
+						"minecraft:movement": {
+							"value": 0
+						}
+					},
+					"module:start": {
+						"minecraft:movement": {
+							"value": 1
+						}
+					}
+				},
+				"events": {
+					"module:on_stop": {
+						"add": { "component_groups": [ "module:stop" ] },
+						"remove": { "component_groups": [ "module:start" ] }
+					},
+					"module:on_start": {
+						"add": { "component_groups": [ "module:start" ] },
+						"remove": { "component_groups": [ "module:stop" ] }
+					}
+				 }
+			},
+			"remove": {
+				"components": [ "minecraft:movement" ]
+			}
+		},
+		{
+			"type": "commands",
+			"commands": [
+				{
+					"command": "/execute @a ~ ~ ~ kill @e[type=creeper, r=10]",
+					"type": "repeating",
+					"is_conditional": false,
+					"description": "1) Kill"
+				},
+				{
+					"type": "chain",
+					"is_conditional": true,
+					"command": "/say Killed creeper!",
+					"description": "2) Notify"
+				}
+			]
+		}
+	]
+}

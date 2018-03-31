@@ -33,5 +33,10 @@
 		"name": "test_7",
 		"description": "test_description",
 		"path": "https://solveddev.github.io/module_tests/modules/module_7.json"
+	},
+	{
+		"name": "Utilities",
+		"description": "A whole lot of utilities such as a blank entity, movement control and health1.",
+		"path": "https://solveddev.github.io/module_tests/modules/module_8.json"
 	}
 ]
