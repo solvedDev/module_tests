@@ -2,7 +2,7 @@
 	"elements": [
 		{
 			"type": "trades",
-			"name": "nitwit_trades"
+			"name": "nitwit_trades",
 			"trades": {
 				"tiers": [
 					{
@@ -56,7 +56,7 @@
 		},
 		{
 			"type": "loot_table",
-			"name": "baby_creeper"
+			"name": "baby_creeper",
 			"loot_table": {
 				"pools": [
 					{
