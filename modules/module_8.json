@@ -26,7 +26,7 @@
 		{
 			"type": "entity",
 			"name": "StopIt!",
-			"description": "Remove all components, events and component groups.",
+			"description": "Gain control over the movement of an entity",
 			"add": {
 				"component_groups": {
 					"module:stop": {
