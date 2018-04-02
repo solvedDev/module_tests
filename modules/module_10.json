@@ -5,7 +5,7 @@
 			"name": "NoAdults",
 			"description": "Replace adults & babies",
 			"replace": {
-				"parse_groups": true,
+				"replace_group_by_group": true,
 				"component_groups": {
 					"minecraft:zombie_adult": {
 						"minecraft:movement": {},
