@@ -38,5 +38,10 @@
 		"name": "Utilities",
 		"description": "A whole lot of utilities such as a blank entity, movement control and health1.",
 		"path": "modules/module_8.json"
+	},
+	{
+		"name": "NoZombieSpeed",
+		"description": "A module to test the new 'parse_groups'-argument.",
+		"path": "modules/module_9.json"
 	}
 ]

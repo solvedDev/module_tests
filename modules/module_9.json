@@ -1,0 +1,15 @@
+{
+	"elements": [
+		{
+			"type": "entity",
+			"name": "NoSpeed",
+			"description": "Remove the movement component. Everywhere!",
+			"remove": {
+				"parse_groups": true,
+				"components": [
+					"minecraft:movement"
+				]
+			}
+		}
+	]
+}
