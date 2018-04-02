@@ -1,0 +1,22 @@
+{
+	"elements": [
+		{
+			"type": "entity",
+			"name": "NoAdults",
+			"description": "Replace adults & babies",
+			"replace": {
+				"parse_groups": true,
+				"component_groups": {
+					"minecraft:zombie_adult": {
+						"minecraft:movement": {},
+						"minecraft:is_baby": {}
+					},
+					"minecraft:zombie_baby": {
+						"minecraft:scale": {}
+					}
+				}
+					
+			}
+		}
+	]
+}
